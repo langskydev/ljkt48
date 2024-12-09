@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Website Oshi JKT48</title>
+  <link rel="stylesheet" href="assets/style.css">
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <!-- AOS CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+</head>
+
+<body>
+  <!-- Header/Navbar untuk Desktop dan Mobile -->
+  <header>
+    <div class="container">
+      <div class="logo">
+        <h1>JKT48</h1>
+      </div>
+      <nav class="desktop-nav">
+        <ul class="nav-list">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#myoshi">My Oshi</a></li>
+          <li><a href="#album">Album</a></li>
+          <li><a href="#music">Music</a></li>
+          <li><a href="#videos">Videos</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-video">
+      <video autoplay muted id="hero-video">
+        <source src="assets/vidoo/1.mp4" type="video/mp4">
+        Browser Anda tidak mendukung video.
+      </video>
+    </div>
+    <div class="hero-content" data-aos="fade-up">
+      <h1 data-aos="fade-up" data-aos-delay="200">Selamat datang di Website Oshi JKT48</h1>
+      <p data-aos="fade-up" data-aos-delay="400">Tempat untuk mengenal lebih dekat para member JKT48 dan menunjukkan
+        dukungan kepada oshi-oshimu!</p>
+      <a href="#about" class="btn-primary" data-aos="fade-up" data-aos-delay="600">Kenali Oshimu</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <div class="container">
+      <h2 data-aos="fade-up">Kenali JKT48</h2>
+      <p data-aos="fade-up" data-aos-delay="200">
+        JKT48 adalah grup idola asal Indonesia yang terinspirasi dari AKB48 di Jepang. Kami selalu berinovasi dalam
+        musik, tarian, dan penampilan untuk para penggemar setia.
+      </p>
+      <div class="about-grid">
+        <div class="card" data-aos="zoom-in" data-aos-delay="300">
+          <div class="card-icon">
+            <i class="fas fa-music"></i>
+          </div>
+          <h3>Musik</h3>
+          <p>Jelajahi lagu-lagu inspiratif dan penampilan luar biasa dari JKT48.</p>
+        </div>
+        <div class="card" data-aos="zoom-in" data-aos-delay="400">
+          <div class="card-icon">
+            <i class="fas fa-users"></i>
+          </div>
+          <h3>Penggemar</h3>
+          <p>Komunitas penggemar yang setia dan aktif mendukung perjalanan kami.</p>
+        </div>
+        <div class="card" data-aos="zoom-in" data-aos-delay="500">
+          <div class="card-icon">
+            <i class="fas fa-star"></i>
+          </div>
+          <h3>Prestasi</h3>
+          <p>Menjadi grup idola yang terus meraih penghargaan dan cinta penggemar.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+    <path fill="#66b3ff" fill-opacity="1"
+      d="M0,256L30,250.7C60,245,120,235,180,218.7C240,203,300,181,360,144C420,107,480,53,540,64C600,75,660,149,720,197.3C780,245,840,267,900,229.3C960,192,1020,96,1080,96C1140,96,1200,192,1260,229.3C1320,267,1380,245,1410,234.7L1440,224L1440,0L1410,0C1380,0,1320,0,1260,0C1200,0,1140,0,1080,0C1020,0,960,0,900,0C840,0,780,0,720,0C660,0,600,0,540,0C480,0,420,0,360,0C300,0,240,0,180,0C120,0,60,0,30,0L0,0Z">
+    </path>
+  </svg>
+
+  <section id="myoshi" class="myoshi">
+    <div class="container">
+      <h2 data-aos="fade-up">My Oshi</h2>
+      <p data-aos="fade-up" data-aos-delay="200">
+        Kenali oshi-oshimu! Ini adalah tiga member favoritku yang selalu memberikan energi positif.
+      </p>
+      <div class="oshi-grid">
+        <!-- Christy Card -->
+        <div class="oshi-card" data-aos="zoom-in" data-aos-delay="300">
+          <div class="oshi-card-header">
+            <img src="assets/fot/christy.jpg" alt="Christy" class="oshi-img">
+            <div class="oshi-name">Christy</div>
+          </div>
+          <div class="oshi-card-body">
+            <p>Peduli dan berbaik hati siapakah dia?christoy</p>
+          </div>
+          <div class="oshi-card-footer">
+            <a href="https://www.instagram.com/jkt48.christy" target="_blank" class="btn-follow">Follow</a>
+          </div>
+        </div>
+
+        <!-- Gracia Card -->
+        <div class="oshi-card" data-aos="zoom-in" data-aos-delay="400">
+          <div class="oshi-card-header">
+            <img src="assets/fot/cigre.jpg" alt="Gracia" class="oshi-img">
+            <div class="oshi-name">Gracia</div>
+          </div>
+          <div class="oshi-card-body">
+            <p>Senyumku akan terekam jelas dalam ingatanmu seperti foto dengan sejuta warna. Namaku Gracia. Always smile
+            </p>
+          </div>
+          <div class="oshi-card-footer">
+            <a href="https://www.instagram.com/jkt48gracia" target="_blank" class="btn-follow">Follow</a>
+          </div>
+        </div>
+
+        <!-- Oline Card -->
+        <div class="oshi-card" data-aos="zoom-in" data-aos-delay="500">
+          <div class="oshi-card-header">
+            <img src="assets/fot/oline.jpg" alt="Oline" class="oshi-img">
+            <div class="oshi-name">Oline</div>
+          </div>
+          <div class="oshi-card-body">
+            <p>Semangat ku full terus! Gas gas gas Oline.</p>
+          </div>
+          <div class="oshi-card-footer">
+            <a href="https://www.instagram.com/jkt48.oline" target="_blank" class="btn-follow">Follow</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Album Oshi Section -->
+  <section id="album" class="album">
+    <div class="container">
+      <h2 data-aos="fade-up">Album Foto Oshi</h2>
+      <p data-aos="fade-up" data-aos-delay="200">
+        Lihat koleksi foto-foto terbaik dari oshi-oshimu! Nikmati pengalaman melihat foto dalam galeri yang menarik.
+      </p>
+
+      <!-- Christy Section -->
+      <div class="member-album" id="christy-album">
+        <h3 class="member-name" data-aos="fade-up">Christy</h3>
+        <div class="album-scroll">
+          <!-- Foto-foto Christy -->
+          <div class="album-card" data-aos="zoom-in" data-aos-delay="300">
+            <img src="assets/fot/c1.jpg" alt="Christy 1" class="album-img">
+          </div>
+          <div class="album-card" data-aos="zoom-in" data-aos-delay="400">
+            <img src="assets/fot/c2.jpg" alt="Christy 2" class="album-img">
+          </div>
+          <div class="album-card" data-aos="zoom-in" data-aos-delay="500">
+            <img src="assets/fot/c3.jpg" alt="Christy 3" class="album-img">
+          </div>
+          <div class="album-card" data-aos="zoom-in" data-aos-delay="600">
+            <img src="assets/fot/c4.jpg" alt="Christy 4" class="album-img">
+          </div>
+          <div class="album-card" data-aos="zoom-in" data-aos-delay="700">
+            <img src="assets/fot/c5.jpg" alt="Christy 4" class="album-img">
+          </div>
+          <div class="album-card" data-aos="zoom-in" data-aos-delay="800">
+            <img src="assets/fot/c6.jpg" alt="Christy 4" class="album-img">
+          </div>
+          <!-- Tambahkan lebih banyak foto -->
+        </div>
+      </div>
+
+      <!-- Gracia Section -->
+      <div class="member-album" id="gracia-album">
+        <h3 class="member-name" data-aos="fade-up">Gracia</h3>
+        <div class="album-scroll">
+          <!-- Foto-foto Gracia -->
+          <div class="album-card" data-aos="zoom-in" data-aos-delay="300">
+            <img src="assets/fot/g1.jpg" alt="Gracia 1" class="album-img">
+          </div>
+          <div class="album-card" data-aos="zoom-in" data-aos-delay="400">
+            <img src="assets/fot/g2.jpg" alt="Gracia 2" class="album-img">
+          </div>
+          <div class="album-card" data-aos="zoom-in" data-aos-delay="500">
+            <img src="assets/fot/g3.jpg" alt="Gracia 3" class="album-img">
+          </div>
+          <div class="album-card" data-aos="zoom-in" data-aos-delay="600">
+            <img src="assets/fot/g4.jpg" alt="Gracia 4" class="album-img">
+          </div>
+          <div class="album-card" data-aos="zoom-in" data-aos-delay="700">
+            <img src="assets/fot/g5.jpg" alt="Gracia 4" class="album-img">
+          </div>
+          <div class="album-card" data-aos="zoom-in" data-aos-delay="800">
+            <img src="assets/fot/g6.jpg" alt="Gracia 4" class="album-img">
+          </div>
+          <!-- Tambahkan lebih banyak foto -->
+        </div>
+      </div>
+
+      <!-- Oline Section -->
+      <div class="member-album" id="oline-album">
+        <h3 class="member-name" data-aos="fade-up">Oline</h3>
+        <div class="album-scroll">
+          <!-- Foto-foto Oline -->
+          <div class="album-card" data-aos="zoom-in" data-aos-delay="300">
+            <img src="assets/fot/o1.jpg" alt="Oline 1" class="album-img">
+          </div>
+          <div class="album-card" data-aos="zoom-in" data-aos-delay="400">
+            <img src="assets/fot/o2.jpg" alt="Oline 2" class="album-img">
+          </div>
+          <div class="album-card" data-aos="zoom-in" data-aos-delay="500">
+            <img src="assets/fot/o3.jpg" alt="Oline 3" class="album-img">
+          </div>
+          <div class="album-card" data-aos="zoom-in" data-aos-delay="600">
+            <img src="assets/fot/o4.jpg" alt="Oline 4" class="album-img">
+          </div>
+          <div class="album-card" data-aos="zoom-in" data-aos-delay="700">
+            <img src="assets/fot/o5.jpg" alt="Oline 4" class="album-img">
+          </div>
+          <div class="album-card" data-aos="zoom-in" data-aos-delay="800">
+            <img src="assets/fot/o6.jpg" alt="Oline 4" class="album-img">
+          </div>
+          <!-- Tambahkan lebih banyak foto -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+    <path fill="#66b3ff" fill-opacity="1"
+      d="M0,64L30,69.3C60,74,120,84,180,100.7C240,116,300,138,360,175.3C420,212,480,266,540,255.7C600,245,660,171,720,122.7C780,74,840,52,900,89.3C960,126,1020,222,1080,222C1140,222,1200,126,1260,89.3C1320,52,1380,74,1410,84.7L1440,96L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z">
+    </path>
+  </svg>
+
+
+  <section id="music" class="music">
+    <div class="container">
+      <h2>Musik</h2>
+      <div class="music-cards-container">
+        <!-- Music Card 1 -->
+        <div class="music-card" data-aos="zoom-in" data-aos-delay="300">
+          <img src="assets/fot/hv.jpg" alt="Heavy Rotation" class="music-img">
+          <div class="music-details">
+            <h3>Heavy Rotation</h3>
+            <audio src="assets/music/havy-rotation.mp3" controls></audio>
+            <!-- Replace the download button with the share button -->
+            <button class="btn-share">
+              <i class="fas fa-share-alt"></i> Share
+            </button>
+          </div>
+        </div>
+        <div class="music-card" data-aos="zoom-in" data-aos-delay="300">
+          <img src="assets/fot/foor.jpg" alt="Heavy Rotation" class="music-img">
+          <div class="music-details">
+            <h3>Foortunie Cookie</h3>
+            <audio src="assets/music/Fortune_Cookie.mp3" controls></audio>
+            <!-- Replace the download button with the share button -->
+            <button class="btn-share">
+              <i class="fas fa-share-alt"></i> Share
+            </button>
+          </div>
+        </div>
+        <div class="music-card" data-aos="zoom-in" data-aos-delay="300">
+          <img src="assets/fot/jurus.jpg" alt="Heavy Rotation" class="music-img">
+          <div class="music-details">
+            <h3>Jurus Rahasia Teleport</h3>
+            <audio src="assets/music/Jurus.mp3" controls></audio>
+            <!-- Replace the download button with the share button -->
+            <button class="btn-share">
+              <i class="fas fa-share-alt"></i> Share
+            </button>
+          </div>
+        </div>
+        <div class="music-card" data-aos="zoom-in" data-aos-delay="300">
+          <img src="assets/fot/rapsodi.jpg" alt="Heavy Rotation" class="music-img">
+          <div class="music-details">
+            <h3>Rapsodi</h3>
+            <audio src="assets/music/rapsodi.mp3" controls></audio>
+            <!-- Replace the download button with the share button -->
+            <button class="btn-share">
+              <i class="fas fa-share-alt"></i> Share
+            </button>
+          </div>
+        </div>
+        <div class="music-card" data-aos="zoom-in" data-aos-delay="300">
+          <img src="assets/fot/s.png" alt="Heavy Rotation" class="music-img">
+          <div class="music-details">
+            <h3>Seventeen</h3>
+            <audio src="assets/music/Seventeen.mp3" controls></audio>
+            <!-- Replace the download button with the share button -->
+            <button class="btn-share">
+              <i class="fas fa-share-alt"></i> Share
+            </button>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- "More Music" Button -->
+      <button id="more-music-btn" class="btn-more">Lebih Banyak Lagi</button>
+    </div>
+  </section>
+
+  <section id="videos" class="videos">
+    <div class="container">
+      <h2 data-aos="fade-up">Video Oshi</h2>
+      <p data-aos="fade-up" data-aos-delay="200">Tonton semua video favoritmu dari masing-masing oshi!</p>
+
+      <!-- Filter untuk memilih Oshi -->
+      <div class="oshi-filter" data-aos="fade-up" data-aos-delay="300">
+        <button class="btn-oshi" id="all-videos">Semua</button>
+        <button class="btn-oshi" id="christy-videos">Christy</button>
+        <button class="btn-oshi" id="gracia-videos">Gracia</button>
+        <button class="btn-oshi" id="oline-videos">Oline</button>
+      </div>
+
+      <!-- Video Grid -->
+      <div id="video-grid" class="video-grid">
+        <!-- Contoh video card -->
+        <div class="video-card" data-aos="zoom-in" data-aos-delay="300">
+          <video class="video-player" controls>
+            <source src="assets/vidoo/christy1.mp4" type="video/mp4">
+            Browser Anda tidak mendukung video.
+          </video>
+          <div class="video-card-footer">
+            <button class="btn-share">
+              <i class="fas fa-share-alt"></i> Share
+            </button>
+            <button class="btn-like">
+              <i class="fas fa-thumbs-up"></i> Like
+            </button>
+          </div>
+        </div>
+
+        <!-- Tambahkan video lainnya sesuai dengan Oshi yang dipilih -->
+      </div>
+
+      <!-- Button untuk menampilkan video lebih banyak -->
+      <button id="load-more-videos" class="btn-more">Lebih Banyak Lagi</button>
+    </div>
+  </section>
+
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+    <path fill="#66b3ff" fill-opacity="1"
+      d="M0,256L30,250.7C60,245,120,235,180,218.7C240,203,300,181,360,144C420,107,480,53,540,64C600,75,660,149,720,197.3C780,245,840,267,900,229.3C960,192,1020,96,1080,96C1140,96,1200,192,1260,229.3C1320,267,1380,245,1410,234.7L1440,224L1440,0L1410,0C1380,0,1320,0,1260,0C1200,0,1140,0,1080,0C1020,0,960,0,900,0C840,0,780,0,720,0C660,0,600,0,540,0C480,0,420,0,360,0C300,0,240,0,180,0C120,0,60,0,30,0L0,0Z">
+    </path>
+  </svg>
+
+  <footer id="footer">
+    <div class="container">
+      <!-- Logo dan Deskripsi -->
+      <div class="footer-logo">
+        <h2>JKT48</h2>
+        <p>Website resmi untuk mendukung oshi-oshimu. Semua hak cipta © 2024</p>
+      </div>
+  
+      <!-- Menu Footer -->
+      <div class="footer-nav">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#myoshi">My Oshi</a></li>
+          <li><a href="#album">Album</a></li>
+          <li><a href="#music">Music</a></li>
+          <li><a href="#videos">Videos</a></li>
+        </ul>
+      </div>
+  
+      <!-- Social Media Links -->
+      <div class="footer-social">
+        <a href="https://www.instagram.com/jkt48" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
+        <a href="https://twitter.com/jkt48" target="_blank" class="social-icon"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.youtube.com/user/JKT48" target="_blank" class="social-icon"><i class="fab fa-youtube"></i></a>
+      </div>
+    </div>
+  
+    <!-- Footer Bottom -->
+    <div class="footer-bottom">
+      <p>&copy; 2024 JKT48 Official Website. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+
+
+  <!-- Bottom Navbar untuk Mobile -->
+  <nav class="bottom-nav">
+    <ul class="nav-list">
+      <li><a href="#home"><i class="fas fa-home"></i></a></li>
+      <li><a href="#myoshi"><i class="fas fa-users"></i></a></li>
+      <li><a href="#album"><i class="fas fa-music"></i></a></li>
+      <li><a href="#music"><i class="fas fa-play-circle"></i></a></li>
+      <li><a href="#videos"><i class="fas fa-video"></i></a></li>
+    </ul>
+  </nav>
+
+  <!-- Scripts for Animation -->
+  <script src="assets/script.js"></script>
+  <!-- AOS JS -->
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    // Inisialisasi AOS
+    AOS.init({
+      offset: 120, // Mulai animasi saat elemen sudah terlihat sedikit
+      delay: 0, // Tanpa delay awal
+      duration: 1000, // Durasi animasi
+      once: false, // Mengaktifkan animasi lebih dari sekali selama scroll
+      mirror: true, // Agar animasi bisa berulang ketika kembali ke layar
+    });
+  </script>
+</body>
+
+</html>
